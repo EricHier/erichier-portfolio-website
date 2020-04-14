@@ -6,11 +6,15 @@ module.exports = {
       },
       height: {
         "96px": "96px",
+      },
+      gridRow: {
+        "none": "none",
       }
     },
     fontFamily: {
-      display: ['Josefin Sans Light', 'sans-serif'],
-      body: ['Josefin Sans Light', 'sans-serif'],
+      "heading": ['Josefin Sans', 'sans-serif'],
+      display: ['Baloo Paaji 2', 'sans-serif'],
+      body: ['Baloo Paaji 2', 'sans-serif'],
     },
   },
   variants: {},

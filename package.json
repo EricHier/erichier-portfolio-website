@@ -12,6 +12,7 @@
     "gridsome": "^0.7.0",
     "particles.js": "^2.0.0",
     "tailwindcss": "^1.2.0",
+    "typeface-baloo-paaji": "0.0.71",
     "typeface-josefin-sans": "0.0.75"
   },
   "devDependencies": {

@@ -11,11 +11,6 @@ query {
 }
 </static-query>
 <style>
-  * {
-    font-family: "Josefin Sans Light", SansSerif, serif;
-    color: #fff;
-  }
-
   body, html {
     background-color: #1e1f26;
     scroll-behavior: smooth;

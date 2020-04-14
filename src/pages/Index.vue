@@ -22,7 +22,6 @@
     },
     mounted() {
       AOS.init();
-      window.aos = AOS;
     }
 }
 </script>
