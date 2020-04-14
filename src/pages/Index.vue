@@ -14,7 +14,6 @@
   import Header from "../components/home/Header";
   import Projects from "../components/home/Projects"
   import AOS from "aos";
-  import 'aos/dist/aos.css'
 
   export default {
     components: {ParticlesJS, Header, Projects},
