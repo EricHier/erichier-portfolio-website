@@ -7,7 +7,7 @@
 
     export default {
         mounted() {
-            require('particles.js');
+            require('../../../node_modules/particles.js/particles');
             this.$nextTick(() => {
                 this.initParticlesJS()
             })

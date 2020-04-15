@@ -10,7 +10,7 @@
 </template>
 
 <script>
-  import ParticlesJS from "../components/Particles";
+  import ParticlesJS from "../components/gui-elements/Particles";
   import Header from "../components/home/Header";
   import Projects from "../components/home/Projects"
   import AOS from "aos";
