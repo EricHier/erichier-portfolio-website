@@ -4,7 +4,7 @@
 
             <ProjectContainer v-for="(project, index) in $static.projects.edges" :key="project.node.id" :href="project.node.href" :title="project.node.title">
                 <ProjectImage :project="project" :class="{'row-start-1 col-start-2' : index % 2 === 1}" />
-                <ProjectsTextBlock :title="project.node.title">
+                <ProjectsTextBlock :title="project.node.title" :role="project.node.role">
                     <div v-html="project.node.content"/>
                 </ProjectsTextBlock>
             </ProjectContainer>
@@ -23,13 +23,14 @@
 </script>
 <static-query>
 query {
-    projects: allProject {
+    projects: allProject(sortBy: "title") {
         edges {
             node {
                 title
                 href
                 img
                 content
+                role
             }
         }
     }
