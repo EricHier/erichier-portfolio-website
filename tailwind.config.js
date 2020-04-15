@@ -7,6 +7,12 @@ module.exports = {
       height: {
         "96px": "96px",
       },
+      margin: {
+        "30": "7.5rem"
+      },
+      padding: {
+        "30": "7.5rem"
+      },
       gridRow: {
         "none": "none",
       }
@@ -17,6 +23,8 @@ module.exports = {
       body: ['Baloo Paaji 2', 'sans-serif'],
     },
   },
-  variants: {},
+  variants: {
+    margin: ['responsive', 'hover', 'focus', "last"],
+  },
   plugins: [],
 };
