@@ -2,7 +2,7 @@
     <footer class="pt-12 pb-24 px-6">
         <div class="container mx-auto text-center">
             <p class="mb-4"><b>Website</b> by EricHier</p>
-            <a href="/impressum" title="Impressum">Impressum</a>
+            <g-link href="/impressum" title="Impressum">Impressum</g-link>
         </div>
     </footer>
 </template>
