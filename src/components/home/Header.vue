@@ -6,7 +6,7 @@
         <div class="container mx-auto p-10 flex flex-col md:flex-row justify-between">
             <div>
                 <h2 class="text-2xl md:text-4xl mb-4" data-aos="fade">
-                    Zu einer Problemstellung bedarf es einer L&ouml;sung.
+                    Zu jeder Problemstellung bedarf es einer L&ouml;sung.
                 </h2>
                 <h2 class="text-2xl md:text-4xl" data-aos="fade" data-aos-delay="1000">
                     Und diese zu entwickeln ist meine Passion.

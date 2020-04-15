@@ -6,6 +6,7 @@
 
 module.exports = {
   siteName: 'EricHier',
+  titleTemplate: "%s",
   plugins: [
     {
       use: 'gridsome-plugin-tailwindcss',
@@ -16,6 +17,13 @@ module.exports = {
         shouldPurge: false,
         shouldImport: false,
         shouldTimeTravel: false
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'src/assets/content/*.md',
+        typeName: 'Project'
       }
     }
   ]

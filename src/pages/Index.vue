@@ -18,7 +18,7 @@
   export default {
     components: {ParticlesJS, Header, Projects},
     metaInfo: {
-      title: 'EricHier'
+      title: 'Hi! EricHier'
     },
     mounted() {
       AOS.init();

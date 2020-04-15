@@ -2,26 +2,12 @@
     <section class="has-caro-background">
         <div class="bg-white text-black p-10" data-aos="fade" id="projects">
 
-            <!-- Vehikeling -->
-            <ProjectContainer href="https://vehikeling.de" title="vehikeling">
-                <g-image src="~/assets/img/vehikeling.png" width="600" class="shadow-2xl rounded mx-auto"/>
-                <ProjectsTextBlock title="vehikeling">
-                    Eine <b>Web-Plattform um dein(e) Fahrzeuge zu verwalten</b>. Du kannst ganz komfortabel
-                    deine Services eintragen und Benachrichtigungen zu anstehenden Wartungen bekommen -
-                    und all dies jederzeit auf der Webseite oder in der App.
+            <ProjectContainer v-for="(project, index) in $static.projects.edges" :key="project.node.id" :href="project.node.href" :title="project.node.title">
+                <ProjectImage :project="project" :class="{'row-start-1 col-start-2' : index % 2 === 1}" />
+                <ProjectsTextBlock :title="project.node.title">
+                    <div v-html="project.node.content"/>
                 </ProjectsTextBlock>
             </ProjectContainer>
-
-            <!-- PlottrOrganizr -->
-            <ProjectContainer href="https://github.com/EricHier/PlottrOrganizr" title="PlottrOrganizr">
-                <ProjectsTextBlock title="PlottrOrganizr">
-                    Eine Software um deine <b>Plotter-Datein ganz einfach in einer Web-App zu verwalten</b>.
-                    Es wird automatisch dein PC durchgegangen und nach Designs gescannt. Diese werden übersichtlich
-                    in einer Liste angezeigt, du kannst diese dann auch einfach öffnen.
-                </ProjectsTextBlock>
-                <g-image src="~/assets/img/vehikeling.png" width="600" class="shadow-2xl rounded mx-auto"/>
-            </ProjectContainer>
-
 
         </div>
     </section>
@@ -29,8 +15,23 @@
 <script>
     import ProjectContainer from "../projects/ProjectContainer";
     import ProjectsTextBlock from "../projects/ProjectsTextBlock";
+    import ProjectImage from "../projects/ProjectImage";
 
     export default {
-        components: {ProjectContainer, ProjectsTextBlock}
+        components: {ProjectImage, ProjectContainer, ProjectsTextBlock}
     }
 </script>
+<static-query>
+query {
+    projects: allProject {
+        edges {
+            node {
+                title
+                href
+                img
+                content
+            }
+        }
+    }
+}
+</static-query>
