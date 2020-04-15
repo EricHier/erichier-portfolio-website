@@ -1,14 +1,10 @@
-# Default starter for Gridsome
+# EricHier Website
 
-This is the project you get when you run `gridsome create new-project`.
+This is the website of *EricHier*. It is hosted under [erichier.tech](erichier.tech). 
 
-### 1. Install Gridsome CLI tool if you don't have
+## What does it contain? 
 
-`npm install --global @gridsome/cli`
+This website just showcases all the projects *EricHier* is apart of. These are always linked to they project's 
+page and offer an short summary. 
 
-### 2. Create a Gridsome project
-
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+Further it contains an short description of who *EricHier* is and what he does. 
