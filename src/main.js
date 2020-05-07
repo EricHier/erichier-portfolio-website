@@ -13,7 +13,7 @@ export default function (Vue, { router, head, isClient }) {
   Vue.component("Layout", DefaultLayout)
 
   head.script.push({
-    src: "https://stats.erichier.tech/js/plausible.js",
+    src: "https://stats.erichier.tech/js/index.js",
     async: true,
     defer: true,
     "data-domain": "erichier.tech"
