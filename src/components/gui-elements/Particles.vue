@@ -6,11 +6,9 @@
     import {particleConfig} from "~/data/particlejs-config";
 
     export default {
-        mounted() {
+        async mounted() {
             require('../../../node_modules/particles.js/particles');
-            this.$nextTick(() => {
-                this.initParticlesJS()
-            })
+            this.initParticlesJS()
         },
         methods: {
             initParticlesJS() {
