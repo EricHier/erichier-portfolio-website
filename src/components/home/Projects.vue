@@ -6,7 +6,7 @@
                 class="last:mb-0">
                 <ProjectImage :project="project" :class="{'row-start-1 col-start-2' : index % 2 === 1}" />
                 <ProjectsTextBlock :title="project.node.title" :role="project.node.role">
-                    <div v-html="project.node.content"/>
+                    <div v-html="project.node.content" />
                 </ProjectsTextBlock>
             </ProjectContainer>
 
@@ -24,10 +24,11 @@
 </script>
 <static-query>
 query {
-    projects: allProject(sortBy: "title") {
+    projects: allProject(sortBy: "id", order: ASC) {
         edges {
             node {
                 title
+                id
                 href
                 img
                 content
