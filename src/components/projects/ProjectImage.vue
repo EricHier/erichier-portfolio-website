@@ -1,6 +1,6 @@
 <template>
     <div class="mx-auto shadow md:shadow-xl rounded">
-        <g-image v-bind:src="imgUrl" width="600" class="shadow-2xl rounded"/>
+        <g-image v-bind:src="imgUrl" width="630" class="shadow-2xl rounded"/>
     </div>
 </template>
 <script>
@@ -8,7 +8,7 @@
         props: ["project"],
         computed: {
             imgUrl() {
-                return require('!!assets-loader?width=600!~/assets/img/' + this.project.node.img)
+                return require('!!assets-loader?width=630!~/assets/img/' + this.project.node.img)
             }
         }
     }
