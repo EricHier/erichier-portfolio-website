@@ -12,10 +12,10 @@
                     Und diese zu entwickeln ist meine Passion.
                 </h2>
             </div>
-            <h3 class="text-3xl md:text-5xl text-right" data-aos="fade" data-aos-delay="2000">
+            <h1 class="text-3xl md:text-5xl text-right" data-aos="fade" data-aos-delay="2000">
                 Hi!<br>
                 EricHier
-            </h3>
+            </h1>
         </div>
         <div class="w-full relative mx-auto h-96px text-center flex justify-center items-center text-2xl md:text-3xl text-black z-10 text-white has-caro-background">
             <h2>Meine Projekte</h2>
