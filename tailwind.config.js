@@ -27,4 +27,9 @@ module.exports = {
     margin: ['responsive', 'hover', 'focus', "last"],
   },
   plugins: [],
+  purge: [
+    './src/**/*.html',
+    './src/**/*.vue',
+    './src/**/*.jsx',
+  ],
 };
