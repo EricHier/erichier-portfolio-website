@@ -18,4 +18,10 @@ export default function (Vue, { router, head, isClient }) {
     defer: true,
     "data-domain": "erichier.tech"
   });
+
+  head.link.push({
+    rel: "preload",
+    href: "https://erichier.tech/assets/fonts/josefin-sans-latin-400.be88b4fc.woff2"
+  });
+
 }
