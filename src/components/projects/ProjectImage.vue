@@ -1,6 +1,6 @@
 <template>
     <div class="mx-auto shadow md:shadow-xl rounded">
-        <g-image v-bind:src="imgUrl" width="630" class="shadow-2xl rounded" alt="project.node.title"/>
+        <g-image :src="imgUrl" width="630" class="shadow-2xl rounded" :alt="project.node.title"/>
     </div>
 </template>
 <script>
