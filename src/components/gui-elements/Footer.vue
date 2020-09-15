@@ -12,7 +12,6 @@
     }
 
     a {
-        color: #3273dc;
         cursor: pointer;
         text-decoration: none;
     }
