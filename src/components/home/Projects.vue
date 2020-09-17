@@ -1,6 +1,6 @@
 <template>
     <section class="has-caro-background">
-        <div class="bg-white text-black p-10 -pb-30" data-aos="fade" id="projects">
+        <div class="bg-white p-10 -pb-30" data-aos="fade" id="projects">
 
             <ProjectContainer v-for="(project, index) in $static.projects.edges" :key="project.node.id" :href="project.node.href" :title="project.node.title"
                 class="last:mb-0">
