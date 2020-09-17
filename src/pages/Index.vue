@@ -3,6 +3,7 @@
 
     <Header/>
     <Projects/>
+    <Characteristics/>
 
     <ParticlesJS/>
 
@@ -13,10 +14,11 @@
   import ParticlesJS from "../components/gui-elements/Particles";
   import Header from "../components/home/Header";
   import Projects from "../components/home/Projects"
+  import Characteristics from "../components/home/Characteristics";
   import AOS from "aos";
 
   export default {
-    components: {ParticlesJS, Header, Projects},
+    components: {ParticlesJS, Header, Projects, Characteristics},
     metaInfo: {
       title: 'Hi! EricHier'
     },

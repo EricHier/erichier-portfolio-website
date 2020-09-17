@@ -7,6 +7,9 @@ module.exports = {
       height: {
         "96px": "96px",
       },
+      width: {
+        "fit": "fit-content",
+      },
       margin: {
         "30": "7.5rem"
       },
