@@ -1,20 +1,22 @@
 <template>
   <div class="w-48 md:w-56 h-48 md:h-56 z-20 text-center md:p-4" @mouseover="active = true" @mouseleave="active = false" @click="active = true" >
 
-    <div class="cube" :class="{'show-bottom' : !active, 'show-left': active}" >
-      <div class="cube__face cube__face--front"></div>
-      <div class="cube__face cube__face--back"></div>
-      <div class="cube__face cube__face--right"></div>
-      <div class="cube__face cube__face--left cube__face__active">{{answer}}</div>
-      <div class="cube__face cube__face--top"></div>
-      <div class="cube__face cube__face--bottom cube__face__active">{{title}}</div>
+    <div data-aos="fade-up" :data-aos-duration="(id + 1) * 400 + 200">
+      <div class="cube " :class="{'show-bottom' : !active, 'show-left': active}" >
+        <div class="cube__face cube__face--front"></div>
+        <div class="cube__face cube__face--back"></div>
+        <div class="cube__face cube__face--right"></div>
+        <div class="cube__face cube__face--left cube__face__active">{{answer}}</div>
+        <div class="cube__face cube__face--top"></div>
+        <div class="cube__face cube__face--bottom cube__face__active">{{title}}</div>
+      </div>
     </div>
 
   </div>
 </template>
 <script>
 export default {
-  props: ["title", "answer"],
+  props: ["title", "answer", "id"],
   data() {
     return {
       active: false
