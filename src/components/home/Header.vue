@@ -1,8 +1,7 @@
 <template>
     <section class="h-screen flex flex-col justify-between font-heading text-white">
-        <div class="container mx-auto p-10">
+        <div class="container mx-auto p-10" />
 
-        </div>
         <div class="container mx-auto p-10 flex flex-col md:flex-row justify-between">
             <div>
                 <h2 class="text-2xl md:text-4xl mb-4" data-aos="fade">
@@ -17,6 +16,7 @@
                 EricHier
             </h1>
         </div>
+
         <div class="w-full relative mx-auto h-96px text-center flex justify-center items-center text-2xl md:text-3xl text-black z-10 text-white has-caro-background">
             <h2>Meine Projekte</h2>
             <div class="absolute top-0 left-0 flex justify-center items-center w-full h-full bg-white text-black" data-aos="fade" data-aos-anchor="#projects">
