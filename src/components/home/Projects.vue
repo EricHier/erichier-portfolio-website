@@ -3,7 +3,7 @@
         <div class="bg-white p-10 -pb-30" data-aos="fade" id="projects">
 
             <ProjectContainer v-for="(project, index) in $static.projects.edges" :key="project.node.id" :href="project.node.href" :title="project.node.title"
-                class="last:mb-0">
+                class="last:mb-0" :data-aos="index % 2 ? 'fade-right' : 'fade-left'" data-aos-offset="150">
                 <ProjectImage :project="project" :class="{'row-start-1 col-start-2' : index % 2 === 1}" />
                 <ProjectsTextBlock :title="project.node.title" :role="project.node.role">
                     <div v-html="project.node.content" />
