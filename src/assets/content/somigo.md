@@ -5,4 +5,5 @@ img: somigo.png
 role: Frontend Entwickler
 id: 4
 ---
-Somigo ist eine **Web-Plattform zur flexiblen Vermittlung von Freiweilligenarbeit**. Interessierte können sich damit einfach für lokale gemeinnützige Tätigkeiten anmelden und somit etwas Gutes für die Gemeinschaft tun. 
+»*Jeder der gemeinnützige tätig werden will, soll auch gemeinnützige tätig werden können.*«
+Somigo unterstützt Freiwillige und Unternehmen dabei gemeinnützig tätig zu werden. 
