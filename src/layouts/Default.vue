@@ -18,9 +18,9 @@ query {
   }
 }
 </static-query>
-<style>
+<style lang="scss">
   body, html {
-    background-color: #1e1f26;
+    @apply bg-background overflow-x-hidden;
     scroll-behavior: smooth;
   }
 </style>

@@ -18,6 +18,9 @@ module.exports = {
       },
       gridRow: {
         "none": "none",
+      },
+      backgroundColor: {
+        "background": "#1e1f26"
       }
     },
     fontFamily: {
