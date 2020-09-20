@@ -10,7 +10,7 @@
         <h2 class="text-2xl md:text-4xl" data-aos="fade" data-aos-delay="1000">
           Und diese zu entwickeln ist meine Passion.
         </h2>
-        <div class="w-32 h-2 border-b-8 border-dotted border-red-500 mt-2"/>
+        <div class="w-32 h-2 border-b-8 border-dotted border-red-500 mt-2" data-aos="flip-up" data-aos-delay="1200"/>
       </div>
       <h1 class="text-3xl md:text-5xl text-right" data-aos="fade" data-aos-delay="2000">
         Hi!<br>
