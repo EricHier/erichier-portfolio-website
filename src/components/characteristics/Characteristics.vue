@@ -13,10 +13,10 @@
     <!-- Mobile -->
     <div class="md:hidden w-full p-4">
       <div class="flex justify-content items-center h-24 mb-6 rounded text-xl text-center shadow-cube mouseover-focus hover:scale-105" v-for="card in cards" :key="card.title">
-        <div class="w-1/2 bg-gray-800 h-full flex justify-center items-center rounded-l">
+        <div class="w-1/2 bg-gray-800 h-full flex p-2 justify-center items-center rounded-l">
           {{card.title}}
         </div>
-        <div class="w-1/2 bg-red-400 h-full flex justify-center items-center rounded-r">
+        <div class="w-1/2 bg-red-400 h-full flex p-2 justify-center items-center rounded-r">
           {{card.answer}}
         </div>
       </div>
