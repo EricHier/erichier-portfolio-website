@@ -6,7 +6,7 @@
       <CharacteristicsCard v-for="(card, id) in cards" :key="card.title" :title="card.title" :answer="card.answer" :id="id" class="smx-auto"/>
 
       <div class="w-48 h-48 m-6 flex justify-center items-center text-lg text-center select-none" data-aos="fade-up" :data-aos-delay="cards.length * 200">
-        Du möchtest mich kennenlernen? Schreib mir!
+        Du möchtest mich kennenlernen? <br>Schreib mir!
       </div>
     </div>
 

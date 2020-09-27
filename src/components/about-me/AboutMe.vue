@@ -3,11 +3,11 @@
 
     <h2 class="heading p-8">Das bin ich</h2>
 
-    <div class="md:flex justify-center items-center flex-row">
+    <div class="lg:flex justify-center items-center flex-row">
 
-      <Picture class="w-full md:w-1/2 p-4" />
+      <Picture class="w-full lg:w-1/2 p-4" />
 
-      <Characteristics class="w-full md:w-1/2 mt-4"/>
+      <Characteristics class="w-full lg:w-1/2 mt-4"/>
 
     </div>
 

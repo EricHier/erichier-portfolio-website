@@ -3,13 +3,13 @@
     <div class="container mx-auto">
       <h2 class="heading p-8 mb-8">Was ich anbiete</h2>
 
-      <div class="grid grid-cols-4 p-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-8">
 
-        <IconBlock v-for="(offer, id) in offers" :icon="offer.icon" data-aos="fade-up" :data-aos-delay="id*100">{{offer.text}}</IconBlock>
+        <IconBlock v-for="(offer, id) in offers" :icon="offer.icon" class="mb-12" data-aos="fade-up" :data-aos-delay="id*100">{{offer.text}}</IconBlock>
 
       </div>
 
-      <div class="text-lg text-center pt-8 pb-12">
+      <div class="text-lg text-center md:pt-8 pb-12 px-12">
 
         Bei Interesse oder Fragen kontaktieren Sie mich bitte unter
         <a class="inline-block w-fit font-bold text-red-400 hover:underlined" href="mailto:develop.erichier@gmail.com">developer.erichier@gmail.com</a>.
