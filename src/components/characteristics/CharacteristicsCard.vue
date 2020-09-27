@@ -2,13 +2,13 @@
   <div class="w-48 md:w-56 h-48 md:h-56 z-20 text-center md:p-4" @mouseover="active = true" @mouseleave="active = false" @click="active = true" >
 
     <div data-aos="fade-up" :data-aos-duration="(id + 1) * 400 + 200">
-      <div class="cube " :class="{'show-bottom' : !active, 'show-left': active}" >
-        <div class="cube__face cube__face--front"></div>
+      <div class="cube " :class="{'show-front' : !active, 'show-bottom': active}" >
+        <div class="cube__face cube__face--front cube__face__active">{{title}}</div>
         <div class="cube__face cube__face--back"></div>
         <div class="cube__face cube__face--right"></div>
-        <div class="cube__face cube__face--left cube__face__active">{{answer}}</div>
+        <div class="cube__face cube__face--left "></div>
         <div class="cube__face cube__face--top"></div>
-        <div class="cube__face cube__face--bottom cube__face__active">{{title}}</div>
+        <div class="cube__face cube__face--bottom cube__face__active">{{answer}}</div>
       </div>
     </div>
 
@@ -40,12 +40,12 @@ export default {
 .cube.show-bottom { transform: translateZ(6rem) rotateX(  90deg); }
 
 .cube__face {
-  @apply absolute w-48 h-48 border-4 border-white flex justify-center items-center text-xl tracking-wider text-white ;
+  @apply absolute w-48 h-48 shadow-cube flex justify-center items-center text-xl tracking-wider text-white p-2;
 
 }
 
-.cube__face--left   { @apply bg-red-500; }
-.cube__face--bottom { @apply bg-gray-800; }
+.cube__face--bottom   { @apply bg-red-500; }
+.cube__face--front { @apply bg-gray-800; }
 
 .cube__face--front  { transform: rotateY(  0deg) translateZ(6rem); }
 .cube__face--right  { transform: rotateY( 90deg) translateZ(6rem); }

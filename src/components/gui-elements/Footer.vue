@@ -1,7 +1,7 @@
 <template>
     <footer class="pt-12 pb-24 px-6">
         <div class="container mx-auto text-center">
-            <p class="mb-4"><b>Website</b> by EricHier</p>
+            <p class="mb-4">Made with <b>❤</b> by EricHier</p>
             <g-link to="/impressum" title="Impressum">Impressum</g-link>
         </div>
     </footer>

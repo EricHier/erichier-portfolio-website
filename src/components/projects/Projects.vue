@@ -14,9 +14,9 @@
     </section>
 </template>
 <script>
-    import ProjectContainer from "../projects/ProjectContainer";
-    import ProjectsTextBlock from "../projects/ProjectsTextBlock";
-    import ProjectImage from "../projects/ProjectImage";
+    import ProjectContainer from "./ProjectContainer";
+    import ProjectsTextBlock from "./ProjectsTextBlock";
+    import ProjectImage from "./ProjectImage";
 
     export default {
         components: {ProjectImage, ProjectContainer, ProjectsTextBlock}

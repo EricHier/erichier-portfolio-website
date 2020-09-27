@@ -7,6 +7,9 @@ module.exports = {
       height: {
         "96px": "96px",
       },
+      boxShadow: {
+        "cube": "0 0 20px 20px rgba(0, 0, 0, 0.1)"
+      },
       width: {
         "fit": "fit-content",
       },

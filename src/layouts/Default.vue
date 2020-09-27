@@ -23,4 +23,8 @@ query {
     @apply bg-background overflow-x-hidden;
     scroll-behavior: smooth;
   }
+
+  .mouseover-focus {
+    @apply transition-all transform ease-in-out duration-200;
+  }
 </style>

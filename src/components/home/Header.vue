@@ -7,12 +7,12 @@
         <h2 class="text-2xl md:text-4xl mb-4" data-aos="fade">
           Zu jeder Problemstellung bedarf es einer L&ouml;sung.
         </h2>
-        <h2 class="text-2xl md:text-4xl" data-aos="fade" data-aos-delay="1000">
+        <h2 class="text-2xl md:text-4xl" data-aos="fade" data-aos-delay="1500">
           Und diese zu entwickeln ist meine Passion.
         </h2>
-        <div class="w-32 h-2 border-b-8 border-dotted border-red-500 mt-2" data-aos="flip-up" data-aos-delay="1200"/>
+        <div class="w-32 h-2 border-b-8 border-dotted border-red-500 mt-2" data-aos="flip-up" data-aos-delay="1700"/>
       </div>
-      <h1 class="text-3xl md:text-5xl text-right" data-aos="fade" data-aos-delay="2000">
+      <h1 class="text-3xl md:text-5xl text-right" data-aos="fade" data-aos-delay="2800">
         Hi!<br>
         EricHier
       </h1>
