@@ -1,7 +1,7 @@
 <template>
   <div class="w-48 md:w-56 h-48 md:h-56 z-20 text-center md:p-4" @mouseover="active = true" @mouseleave="active = false" @click="active = true" >
 
-    <div data-aos="fade-up" :data-aos-duration="(id + 1) * 400 + 200">
+    <div data-aos="fade-up" :data-aos-duration="(id + 1) * 200">
       <div class="cube " :class="{'show-front' : !active, 'show-bottom': active}" >
         <div class="cube__face cube__face--front cube__face__active">{{title}}</div>
         <div class="cube__face cube__face--back"></div>

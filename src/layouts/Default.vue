@@ -27,4 +27,8 @@ query {
   .mouseover-focus {
     @apply transition-all transform ease-in-out duration-200;
   }
+
+  .heading {
+    @apply w-full text-center text-3xl font-heading h-96px;
+  }
 </style>

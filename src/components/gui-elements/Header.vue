@@ -19,7 +19,7 @@
     </div>
 
     <div
-        class="w-full relative mx-auto h-96px text-center flex justify-center items-center text-2xl md:text-3xl text-black z-10 text-white has-caro-background">
+        class="w-full relative mx-auto text-center flex justify-center items-center heading md:text-3xl text-black z-10 text-white has-caro-background">
       <h2>Meine Projekte</h2>
       <div class="absolute top-0 left-0 flex justify-center items-center w-full h-full bg-white text-black"
            data-aos="fade" data-aos-anchor="#projects">
