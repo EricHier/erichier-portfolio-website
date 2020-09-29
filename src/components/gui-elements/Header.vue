@@ -32,9 +32,15 @@
 export default {
   methods: {
     scroll(e) {
-      document.querySelector(`#${e.target.id}`).scrollIntoView({
-        behavior: 'smooth'
+      import("smoothscroll-polyfill").then(smoothscroll => {
+        smoothscroll.polyfill();
+
+        document.querySelector(`#${e.target.id}`).scrollIntoView({
+          behavior: 'smooth'
+        });
+
       });
+
     }
   }
 }
