@@ -1,6 +1,12 @@
-# EricHier Website
+# EricHier Portfolio Website
 
 This is the website of *EricHier*. It is hosted under [erichier.tech](erichier.tech). 
+
+## What frameworks do you use? 
+
+- Gridsome (Vue static site generator)
+- TailwindCSS 
+- day.js
 
 ## What does it contain? 
 
