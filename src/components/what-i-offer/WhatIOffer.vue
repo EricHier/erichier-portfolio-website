@@ -12,7 +12,7 @@
       <div class="text-lg text-center md:pt-8 pb-12 px-12" id="kontakt">
 
         Bei Interesse oder Fragen kontaktieren Sie mich bitte unter
-        <a class="inline-block w-fit font-bold text-red-400 hover:underlined" href="mailto:develop.erichier@gmail.com">developer.erichier@gmail.com</a>.
+        <a class="inline-block w-fit font-bold text-red-400 hover:underlined" href="mailto:develop.erichier@gmail.com" target="_blank">developer.erichier@gmail.com</a>.
 
       </div>
 
