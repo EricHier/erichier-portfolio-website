@@ -5,8 +5,8 @@
     <div class="hidden md:grid grid-cols-2 gap-6 m-8 mx-auto w-full md:w-fit">
       <CharacteristicsCard v-for="(card, id) in cards" :key="card.title" :title="card.title" :answer="card.answer" :id="id" class="smx-auto"/>
 
-      <div class="w-48 h-48 m-6 flex justify-center items-center text-lg text-center select-none" data-aos="fade-up" :data-aos-delay="cards.length * 200">
-        Du möchtest mich kennenlernen? <br>Schreib mir!
+      <div class="w-48 h-48 m-6 flex flex-col justify-center items-center text-lg text-center select-none" data-aos="fade-up" :data-aos-delay="cards.length * 200" @click="scrollToMail">
+        Du möchtest mit mir zusammenarbeiten? <br><button class="italic mt-2 block hover:text-red-400 focus:outline-none">Schreib mir!</button>
       </div>
     </div>
 
@@ -44,5 +44,17 @@ export default {
       }]
     }
   },
+  methods: {
+    scrollToMail() {
+      import("smoothscroll-polyfill").then(smoothscroll => {
+        smoothscroll.polyfill();
+
+        document.querySelector("#kontakt").scrollIntoView({
+          behavior: 'smooth'
+        });
+
+      });
+    }
+  }
 }
 </script>
