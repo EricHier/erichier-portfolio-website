@@ -19,10 +19,24 @@ module.exports = {
       }
     },
     {
-      use: '@gridsome/source-filesystem',
+      use: "gridsome-plugin-i18n",
       options: {
-        path: 'src/assets/content/*.md',
-        typeName: 'Project'
+        locales: [
+          'de-de',
+          'en-gb'
+        ],
+        pathAliases: {
+          'de-de': 'de',
+          'en-gb': 'en'
+        },
+        fallbackLocale: 'en-gb',
+        defaultLocale: 'de-de',
+        enablePathRewrite: true,
+        rewriteDefaultLanguage: false,
+        messages: {
+          'de-de': require('./src/locales/de-de.js'),
+          'en-gb': require('./src/locales/en-gb.js'),
+        }
       }
     }
   ]
