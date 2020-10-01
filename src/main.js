@@ -8,11 +8,11 @@ import "aos/dist/aos.css";
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { config, library } from '@fortawesome/fontawesome-svg-core'
 import { faVuejs, faWordpressSimple, faNodeJs } from '@fortawesome/free-brands-svg-icons'
-import { faFileCode } from "@fortawesome/free-solid-svg-icons";
+import { faFileCode, faLanguage } from "@fortawesome/free-solid-svg-icons";
 import '@fortawesome/fontawesome-svg-core/styles.css'
 
 config.autoAddCss = false;
-library.add(faVuejs, faWordpressSimple, faFileCode, faNodeJs)
+library.add(faVuejs, faWordpressSimple, faFileCode, faNodeJs, faLanguage)
 
 require("typeface-josefin-sans");
 require("typeface-baloo-paaji");
@@ -27,5 +27,13 @@ export default function (Vue, { router, head, isClient }) {
     defer: true,
     "data-domain": "erichier.tech"
   });
+
+  router.options.scrollBehavior = (to, from, savedPosition) => {
+    if (savedPosition || to.name && to.name.includes("home")) {
+      return savedPosition
+    } else {
+      return { x: 0, y: 0 }
+    }
+  }
 
 }

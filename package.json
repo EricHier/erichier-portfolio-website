@@ -11,13 +11,16 @@
     "@gridsome/transformer-remark": "^0.6.2",
     "animate.css": "^3.7.2",
     "aos": "^2.3.4",
+    "babel-runtime": "^6.26.0",
     "dayjs": "^1.8.36",
     "gridsome": "^0.7.20",
+    "gridsome-plugin-i18n": "^1.6.0",
     "particles.js": "^2.0.0",
     "smoothscroll-polyfill": "^0.4.4",
     "tailwindcss": "^1.8.10",
     "typeface-baloo-paaji": "0.0.71",
-    "typeface-josefin-sans": "0.0.75"
+    "typeface-josefin-sans": "0.0.75",
+    "vue-markdown": "^2.2.4"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
