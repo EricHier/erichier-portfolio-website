@@ -1,9 +1,9 @@
 <template>
   <section class="h-screen flex flex-col justify-between font-heading text-white">
 
-    <div class="absolute md:fixed top-0 right-0 flex justify-center items-center z-20 p-6 text-red-400" @click="changeLanguage">
+    <button class="absolute md:fixed top-0 right-0 flex justify-center items-center z-20 p-6 text-red-400" @click="changeLanguage">
       <font-awesome :icon="['fas', 'language']" size="2x" class="block" />
-    </div>
+    </button>
 
     <div class="container mx-auto p-10"/>
 
