@@ -2,7 +2,7 @@ const dayjs = require("dayjs");
 
 module.exports = {
   header : {
-    left: ["Zu jeder Problemstellung bedarf es einer Lösung.", "Und diese zu entwickeln ist meine Passion. "],
+    left: ["Zu jedem Problem bedarf es einer Lösung.", "Diese zu entwickeln ist meine Leidenschaft. "],
     right: "Hi!\nEricHier"
   },
   projects: {
